@@ -1,0 +1,111 @@
+.btn{
+    background: linear-gradient(0.25turn,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    outline: unset;
+    border: unset;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+svg{
+    width: 50vw;;
+    height: 600px;
+   
+}
+.firsttext{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+flex-direction: column;
+  text-align: start;
+    width: 50vw;
+}
+.firsttext > div > h1{
+font-size: 50px;
+color: hsl(233, 26%, 24%);
+}
+.firsttext > div{
+    width: 500px;
+}
+.firsttext > div > p {
+   font-size: 18px;
+   color: hsl(233, 8%, 62%);
+}
+.imgphonemockup{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.divsvg{
+    position: relative;
+}
+.divsvg > img{
+    width: 40vw;
+    height: 90%;
+}
+
+.whychoose > h1{
+
+    font-size: 50px;
+    color: hsl(233, 26%, 24%);  
+}
+
+.whychoose > p {
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);   
+}
+.lineone  > div > svg{
+height:90px;
+}
+.lineone > h1{
+   
+    font-size: 25px;
+    color: hsl(233, 26%, 24%);   
+}
+
+.lineone > p{
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);   
+}
+.card-title{
+
+    font-size: 20px;
+    color: hsl(233, 26%, 24%);
+
+}
+.card-text{
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);   
+
+}
+.card{
+
+    height: 380px;
+}
+
+div{
+    overflow-y: hidden;
+}
+@media screen and (max-width: 700px){
+    svg{
+        width: 100vw;;
+        height: 500px;
+       
+    }
+    .firsttext{
+        display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+      text-align: start;
+        width: 100vw;
+    }
+    .firsttext > div{
+        width: 350px;
+    }
+    .divsvg > img{
+        width: 60vw;
+        height: 90%;
+    }
+}

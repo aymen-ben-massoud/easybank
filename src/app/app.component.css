@@ -1,0 +1,31 @@
+.active{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    
+}
+li > a:hover {
+color:hsl(233, 8%, 62%) ;
+font-weight: 600;
+
+}
+li:hover {
+    border-bottom: 2px solid hsl(136, 65%, 51%); 
+}
+
+.btn{
+    background: linear-gradient(0.25turn,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    outline: unset;
+    border: unset;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    color:  hsl(0, 0%, 100%)
+    ;
+}
+.white{
+    color: #ffff;
+}
